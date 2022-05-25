@@ -20,7 +20,7 @@ const Item = styled(CardContent)(({ theme }) => ({
   color: '#fff',
   display: 'flex',
   justifyContent: 'space-between',
-  alignItems: 'center'
+  alignItems: 'center',
 }));
 
 export const Widget: FC<WidgetProps> = ({
@@ -57,7 +57,7 @@ export const Widget: FC<WidgetProps> = ({
       if (dragIndex < hoverIndex && hoverClientY < hoverMiddleY) {
         return;
       }
-      // // Dragging upwards
+
       if (dragIndex > hoverIndex && hoverClientY > hoverMiddleY) {
         return;
       }
@@ -87,7 +87,7 @@ export const Widget: FC<WidgetProps> = ({
             margin: '5px 0 10px',
             color: isActive ? 'gray' : '#fff',
             textDecoration: isActive ? 'line-through' : 'none',
-            fontSize: '20px'
+            fontSize: '20px',
           }}>
           {order}
         </Typography>
@@ -96,7 +96,7 @@ export const Widget: FC<WidgetProps> = ({
             margin: '5px 0 10px',
             color: isActive ? 'gray' : '#fff',
             textDecoration: isActive ? 'line-through' : 'none',
-            fontSize: '20px'
+            fontSize: '20px',
           }}>
           {title}
         </Typography>

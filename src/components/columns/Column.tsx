@@ -35,7 +35,7 @@ export const Column: FC<ColumnProps> = ({ widgets, setWidgets }) => {
   return (
     <div style={{ minHeight: 360 }}>
       <Box>
-        <Typography component={'h1'} color="#fff" marginBottom={3} textAlign="center" fontSize={20}>
+        <Typography component={'h1'} color="#fff" marginBottom={3} textAlign="center" fontSize={22}>
           List of activities
         </Typography>
         {widgets &&
