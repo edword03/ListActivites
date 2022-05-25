@@ -1,0 +1,29 @@
+{
+  "data": {
+    "active-1": {
+      "id": 1,
+      "isActive": false,
+      "title": "Write a journal"
+    },
+    "active-2": {
+      "id": 2,
+      "isActive": true,
+      "title": "Draw on paint"
+    },
+    "active-3": {
+      "id": 3,
+      "isActive": false,
+      "title": "Go to walk"
+    },
+    "active-4": {
+      "id": 4,
+      "isActive": false,
+      "title": "Visit to park"
+    },
+    "active-5": {
+      "id": 5,
+      "isActive": true,
+      "title": "Go to running"
+    }
+  }
+}
